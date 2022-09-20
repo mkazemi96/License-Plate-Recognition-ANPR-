@@ -4,7 +4,7 @@ import cv2
 import imutils
 import pytesseract
 
-image=cv2.imread('test3.jpg')
+image=cv2.imread('test.jpg')
 resized_image = imutils.resize(image, width=300 )
 cv2.imshow("original image",resized_image)
 cv2.waitKey(0)
